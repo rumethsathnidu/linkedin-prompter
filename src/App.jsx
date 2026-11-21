@@ -117,9 +117,11 @@ export default function App() {
       <header className="bg-white border-b border-[#e0dfdc] sticky top-0 z-30">
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
-            <div className="w-8 h-8 rounded bg-[#0a66c2] text-white font-extrabold text-lg flex items-center justify-center tracking-tight">
-              in
-            </div>
+            <img
+              src="/icon.svg.webp"
+              alt="LinkedIn Prompter"
+              className="w-8 h-8 rounded object-cover"
+            />
             <div>
               <h1 className="text-base font-bold leading-none text-[#191919]">
                 LinkedIn Prompter
