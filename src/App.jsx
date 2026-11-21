@@ -118,7 +118,7 @@ export default function App() {
         <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
           <div className="flex items-center gap-2.5">
             <img
-              src="/icon.svg.webp"
+              src="/icon.svg.webp?v=2"
               alt="LinkedIn Prompter"
               className="w-8 h-8 rounded object-cover"
             />
